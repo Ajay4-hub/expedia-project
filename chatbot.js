@@ -65,7 +65,9 @@ function getBotResponse(input) {
     return "dhruv harami hai";
   } else if (input.includes("krish")) {
     return "Hi Krish bhai!";
-  } else if (input.includes("thanks")) {
+  } else if (input.includes("lohith")) {
+    return "Bro only talks with girls!";
+  }else if (input.includes("thanks")) {
     return "You're welcome! 😊";
   } else if (input.includes("weather")) {
     return "Sure! The weather today is sunny 🌞";
