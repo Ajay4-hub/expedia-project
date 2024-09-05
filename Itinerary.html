@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Itinerary</title>
+  <link rel="stylesheet" href="itinerary.css">
+</head>
+<body>
+  <div class="flex min-h-screen gradient-bg">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h1 class="logo">Expedia</h1>
+      <nav class="menu">
+        <a href="dashboard.html">Overview</a>
+        <a href="chatbot.html">Chatbot</a>
+        <a href="news.html">News</a>
+        <a href="itinerary.html" class="active">Itinerary</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main">
+      <header>
+        <h2>Your Itinerary</h2>
+        <button class="btn-outline" id="logoutBtn">Log out</button>
+      </header>
+
+      <div class="itinerary-card">
+        <h3>Trip to Paris, France</h3>
+        <ul class="itinerary-list">
+          <li>Day 1: Arrival in Paris, hotel check-in.</li>
+          <li>Day 2: Visit the Eiffel Tower and Louvre Museum.</li>
+          <li>Day 3: Seine River Cruise and Notre-Dame.</li>
+          <li>Day 4: Free day for exploration.</li>
+          <li>Day 5: Departure back home.</li>
+        </ul>
+      </div>
+    </main>
+  </div>
+
+  <script src="itinerary.js"></script>
+</body>
+</html>
