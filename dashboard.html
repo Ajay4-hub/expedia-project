@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="flex min-h-screen gradient-bg">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h1 class="logo">Expedia</h1>
+      <nav class="menu">
+        <a href="dashboard.html" class="active">Overview</a>
+        <a href="chatbot.html">Chatbot</a>
+        <a href="news.html">News</a>
+        <a href="itinerary.html">Itinerary</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main">
+      <header>
+        <h2>Welcome, Traveler!</h2>
+        <button class="btn-outline" id="logoutBtn">Log out</button>
+      </header>
+
+      <div class="card">
+        <h3>Quick Stats</h3>
+        <div class="stats">
+          <div>Upcoming Trips: 3</div>
+          <div>Countries Visited: 12</div>
+          <div>Total Trips: 24</div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <h3>Next Trip: Paris, France</h3>
+        <p>October 10th - October 15th</p>
+        <!-- Updated link to the Itinerary page -->
+        <a href="itinerary.html"><button class="btn">View Itinerary</button></a>
+      </div>
+    </main>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
