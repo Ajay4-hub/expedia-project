@@ -91,13 +91,13 @@ function getBotResponse(input) {
     let currentDate = new Date().toLocaleDateString();
     return `Today's date is ${currentDate}. 📅`;
   } else if (input.includes("dhruv")) {
-    return "Dhruv harami hai";
+    return "coco cola pepsi dhruv bhai sexy";
   } else if (input.includes("krish")) {
     return "Hi Krish bhai!";
   } else if (input.includes("lohith")) {
     return "Bro only talks with girls!";
   } else if (input.includes("vinay")) {
-    return "vinay is also known as pro web devloper";
+    return "vinay is a bot ";
   } else {
     return "I'm here to assist! 🤖";
   }
