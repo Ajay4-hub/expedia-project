@@ -98,6 +98,8 @@ function getBotResponse(input) {
     return "Bro only talks with girls!";
   } else if (input.includes("pandu")) {
     return "ha bhai parmeshwar thu kitna harami hai ???";
+  } else if (input.includes("ajay")) {
+    return "mere naam kyu dala,koi kam hai kya bhai";
   } else if (input.includes("vinay")) {
     return "vinay is a bot ";
   } else {
