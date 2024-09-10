@@ -96,6 +96,8 @@ function getBotResponse(input) {
     return "Hi Krish bhai!";
   } else if (input.includes("lohith")) {
     return "Bro only talks with girls!";
+  } else if (input.includes("pandu")) {
+    return "ha bhai parmeshwar thu kitna harami hai ???";
   } else if (input.includes("vinay")) {
     return "vinay is a bot ";
   } else {
